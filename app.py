@@ -5,7 +5,7 @@ import scipy.io.wavfile as wave
 from numpy.fft import fft
 
 
-rate,data = wave.read('salam.wav')
+rate,data = wave.read('WAVEFILE')
 n = data.size
 duree = 1.0*n/rate
 
